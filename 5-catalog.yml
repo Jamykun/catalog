@@ -21,7 +21,7 @@ spec:
       containers:
       - name: catalog-con
         image: golang:1.15-alpine #gcr.io/formationgcp-baptiste/github.com/jamykun/pfr-product@sha256:15f3a512ece593f2b8b92d64fb1540dc90a0b7e5bd605b900cc9f2c145123410
-        command: ['sh', '-c', 'echo The app is running! && sleep 3600']
+        #command: ['sh', '-c', 'echo The app is running! && sleep 3600']
         ports:
         - containerPort: 3550
         resources:
